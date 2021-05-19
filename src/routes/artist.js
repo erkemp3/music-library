@@ -1,3 +1,5 @@
+const albumController = require('../controllers/album');
+
 const express = require('express');
 
 const artistController = require('../controllers/artist');
@@ -13,5 +15,7 @@ router.get('/:artistId', artistController.readById);
 router.patch('/:artistId', artistController.update);
 
 router.delete('/:artistId', artistController.delete);
+
+router.post('/:artistId/album', albumController.create);
 
 module.exports = router;
