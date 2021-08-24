@@ -1,14 +1,16 @@
 # MySQL Music Library
 
-This repository contains a Music Library app.
+This project aims to create an app for managing a music library, implementing SQL, databases and express.js.
+
+An API was created to perform CRUD operations on a database. This will take JSON GET, POST, PATCH, PUT and DELETE requests to add, read, update or delete artists from a music database.
 
 ### Install
 - Fork this repository    
 
 ```
-    git clone https://github.com/carolinadias25/music-library.git
+    git clone https://github.com/erkemp3/musicLibrary.git
     
-    cd Music-Library
+    cd music-library
     
     npm install
 ```
