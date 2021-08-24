@@ -1,4 +1,4 @@
-# MySQL Music Library
+# MySQL Music Library 🎼
 
 This project aims to create an app for managing a music library, implementing SQL, databases and express.js.
 
